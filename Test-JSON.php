@@ -25,7 +25,7 @@
     
     class Services_JSON_EncDec_TestCase extends PHPUnit_TestCase {
 
-        function Services_JSON_EncDec_TestCase($name) {
+        function __construct($name) {
             $this->PHPUnit_TestCase($name);
         }
 
@@ -157,7 +157,7 @@
 
     class Services_JSON_AssocArray_TestCase extends PHPUnit_TestCase {
 
-        function Services_JSON_AssocArray_TestCase($name) {
+        function __construct($name) {
             $this->PHPUnit_TestCase($name);
         }
 
@@ -201,7 +201,7 @@
 
     class Services_JSON_NestedArray_TestCase extends PHPUnit_TestCase {
 
-        function Services_JSON_NestedArray_TestCase($name) {
+        function __construct($name) {
             $this->PHPUnit_TestCase($name);
         }
 
@@ -278,7 +278,7 @@
 
     class Services_JSON_Object_TestCase extends PHPUnit_TestCase {
 
-        function Services_JSON_Object_TestCase($name) {
+        function __construct($name) {
             $this->PHPUnit_TestCase($name);
         }
 
@@ -317,7 +317,7 @@
 
     class Services_JSON_Spaces_Comments_TestCase extends PHPUnit_TestCase {
 
-        function Services_JSON_Spaces_Comments_TestCase($name) {
+        function __construct($name) {
             $this->PHPUnit_TestCase($name);
         }
 
@@ -365,7 +365,7 @@
 
     class Services_JSON_Empties_TestCase extends PHPUnit_TestCase {
 
-        function Services_JSON_Empties_TestCase($name) {
+        function __construct($name) {
             $this->PHPUnit_TestCase($name);
         }
 
@@ -407,7 +407,7 @@
 
     class Services_JSON_UnquotedKeys_TestCase extends PHPUnit_TestCase {
 
-        function Services_JSON_UnquotedKeys_TestCase($name) {
+        function __construct($name) {
             $this->PHPUnit_TestCase($name);
         }
 
@@ -435,7 +435,7 @@
 
     class Services_JSON_ErrorSuppression_TestCase extends PHPUnit_TestCase {
 
-        function Services_JSON_ErrorSuppression_TestCase($name) {
+        function __construct($name) {
             $this->PHPUnit_TestCase($name);
         }
 
